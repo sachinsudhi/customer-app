@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 @Configuration
-@ComponentScan({"trng.springcore.dao, trng.springcore.service, trng.springcore.pojo, trng.springcore.utils, trng.springcore.bean, trng.springcore.customer_s_core"})
+@ComponentScan({"trng.springweb"})
 public class AppConfig {
 
 	

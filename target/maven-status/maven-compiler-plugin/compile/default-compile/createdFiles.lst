@@ -1,0 +1,16 @@
+trng\springweb\service\CustomerService.class
+trng\springweb\repository\OrderDaoImplementation.class
+trng\springweb\bean\ReportBean.class
+trng\springbean\CustomerApp.class
+trng\springweb\repository\CustomerDao.class
+trng\springweb\service\OrderService.class
+trng\springweb\service\CustomerServiceImplementation.class
+trng\springweb\service\OrderServiceImplementation.class
+trng\springweb\config\AppConfig.class
+trng\springweb\model\Customer.class
+trng\springweb\repository\CustomerDaoImplementation.class
+trng\springweb\model\Address.class
+trng\springweb\model\OrderProducts.class
+trng\springweb\utils\HibernateUtils.class
+trng\springweb\repository\OrderDao.class
+trng\springweb\model\Orders.class

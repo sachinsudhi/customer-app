@@ -150,7 +150,7 @@ public class CustomerDaoImplementation implements CustomerDao {
 		sf = HibernateUtils.getSessionFactory();
         Session session = sf.openSession();
         
-        Query query =  session.createQuery("select new trng.springcore.bean.ReportBean(c.customerID, c.firstName, op.quantity, op.price) from Customer as c,Orders as o, OrderProducts as op where c.customerID=o.customerId and o.orderID=op.orderId and month(o.paymentDueDate)=:mnth order by month(o.paymentDueDate)");
+        Query query =  session.createQuery("select new trng.springweb.bean.ReportBean(c.customerID, c.firstName, op.quantity, op.price) from Customer as c,Orders as o, OrderProducts as op where c.customerID=o.customerId and o.orderID=op.orderId and month(o.paymentDueDate)=:mnth order by month(o.paymentDueDate)");
         query.setParameter("mnth", month);
         List<ReportBean> reportBeans = query.list();
 
