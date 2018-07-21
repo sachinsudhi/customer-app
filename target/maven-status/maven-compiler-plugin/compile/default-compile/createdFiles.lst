@@ -1,5 +1,6 @@
 trng\springweb\service\CustomerService.class
 trng\springweb\repository\OrderDaoImplementation.class
+trng\springweb\controller\CustomerController.class
 trng\springweb\bean\ReportBean.class
 trng\springbean\CustomerApp.class
 trng\springweb\repository\CustomerDao.class

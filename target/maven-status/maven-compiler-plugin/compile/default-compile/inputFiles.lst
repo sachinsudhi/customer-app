@@ -1,3 +1,4 @@
+C:\Users\User\eclipse-workspace\customer-app\src\main\java\trng\springbean\main.java
 C:\Users\User\eclipse-workspace\customer-app\src\main\java\trng\springweb\repository\CustomerDaoImplementation.java
 C:\Users\User\eclipse-workspace\customer-app\src\main\java\trng\springweb\utils\HibernateUtils.java
 C:\Users\User\eclipse-workspace\customer-app\src\main\java\trng\springweb\service\OrderService.java
@@ -12,5 +13,6 @@ C:\Users\User\eclipse-workspace\customer-app\src\main\java\trng\springweb\servic
 C:\Users\User\eclipse-workspace\customer-app\src\main\java\trng\springweb\model\Customer.java
 C:\Users\User\eclipse-workspace\customer-app\src\main\java\trng\springweb\config\AppConfig.java
 C:\Users\User\eclipse-workspace\customer-app\src\main\java\trng\springweb\repository\OrderDao.java
+C:\Users\User\eclipse-workspace\customer-app\src\main\java\trng\springweb\controller\CustomerController.java
 C:\Users\User\eclipse-workspace\customer-app\src\main\java\trng\springweb\service\CustomerService.java
 C:\Users\User\eclipse-workspace\customer-app\src\main\java\trng\springweb\service\CustomerServiceImplementation.java
