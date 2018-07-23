@@ -33,10 +33,10 @@
 		<div class="row new">
 			<div class="col-sm-2 sidenav">
 				<ul class="nav">
-					<li class="active"><a href="homepage.html">Home</a></li>
-					<li><a href="customerlist.html">Show Customer</a></li>
-					<li><a href="addcustomer.html">Add Customer</a></li>
-					<li><a href="addproduct.html">Add Product</a></li>
+					<li class="active"><a href="${contextPath}/home">Home</a></li>
+					<li><a href="${contextPath}/customers/list">Show Customer</a></li>
+					<li><a href="${contextPath}/customers">Add Customer</a></li>
+					<li><a href="${contextPath}/product">Add Product</a></li>
 					<li><a href="#">Place order</a></li>
 				</ul>
 			</div>

@@ -8,5 +8,5 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan({"trng.springweb"})
 public class AppConfig {
 
-	
+
 }

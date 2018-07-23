@@ -61,20 +61,8 @@ public final class Customer {
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	@JoinColumn(name = "customer_id_fk")
 	private List<Orders> orders;
-	
-	
-
+		
 	@Embedded
-	/*@AttributeOverrides(value = { @AttributeOverride(name = "billingStreet", column = @Column(name = "bill_street")),
-			@AttributeOverride(name = "billingCity", column = @Column(name = "bill_city")),
-			@AttributeOverride(name = "billingState", column = @Column(name = "bill_state")),
-			@AttributeOverride(name = "billingZIP", column = @Column(name = "bill_zip")),
-			@AttributeOverride(name = "billingCountry", column = @Column(name = "bill_country")),
-			@AttributeOverride(name = "shippingStreet", column = @Column(name = "ship_street")),
-			@AttributeOverride(name = "shippingCity", column = @Column(name = "ship_city")),
-			@AttributeOverride(name = "shippingState", column = @Column(name = "ship_state")),
-			@AttributeOverride(name = "shippingZIP", column = @Column(name = "ship_zip")),
-			@AttributeOverride(name = "shippingCountry", column = @Column(name = "ship_country")) })*/
 	private Address address;
 
 	public Customer() {
